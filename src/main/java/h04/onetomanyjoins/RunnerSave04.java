@@ -51,7 +51,6 @@ public class RunnerSave04 {
 		
 		Transaction tx = session.beginTransaction();
 		
-		
 		session.save(b1);
 		session.save(b2);
 		session.save(b3);
@@ -61,9 +60,6 @@ public class RunnerSave04 {
 		session.save(std2);
 		session.save(std3);
 		
-		
-		tx.commit();
-		
+		tx.commit();	
 	}
-
 }
