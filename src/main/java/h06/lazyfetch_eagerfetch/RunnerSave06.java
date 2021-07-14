@@ -66,7 +66,5 @@ public class RunnerSave06 {
 		session.save(books3);
 		
 		tx.commit();
-		
 	}
-
 }
